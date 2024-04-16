@@ -5,7 +5,8 @@ class Instrument {
     }
   
     play(sound) {
-      
+      new Audio(sound).play()
+      console.log(`${this.name} is playing.`);
     }
   
 }
